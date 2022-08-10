@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services xmlns="http://com.ibm.etools.mft.service">
+    <service name="MQService.wsdl">
+        <connectors>
+            <connector binding="com/ibm/mft/connector/mq:MQConnector" location="MQService.wsdl"/>
+        </connectors>
+    </service>
+</services>

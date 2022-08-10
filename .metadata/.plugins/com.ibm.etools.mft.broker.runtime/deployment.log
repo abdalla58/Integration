@@ -1,0 +1,477 @@
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659634722882
+BIP9332I<<Application 'HTTPInputApplication' has been created successfully. <<1659634722882
+BIP9326I<<The source 'HTTPInputApplicationproject.generated.bar' has been successfully deployed. <<1659634722882
+msgflow>>Node01>>Server01>>SUCCESS>>1659635093027
+BIP9332I<<Application 'msgflow' has been created successfully. <<1659635093027
+BIP9326I<<The source 'msgflowproject.TestMode.bar' has been successfully deployed. <<1659635093027
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659635234350
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659635234350
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659635234350
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659635870168
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659635870168
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659635870168
+msgflow>>Node01>>Server01>>WARNING>>1659690579778
+BIP1361E<<Message flow node 'MQ Output', 'MS#FCMComposite_1_3' in Message flow 'MS', 'MS' requires Policy 'Default' of type 'MQEndpoint' which is not deployed. <<1659690579778
+BIP1361E<<Message flow node 'MQ Input', 'MS#FCMComposite_1_4' in Message flow 'MS', 'MS' requires Policy 'Default' of type 'MQEndpoint' which is not deployed. <<1659690579778
+BIP1096E<<The source 'msgflowproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659690579778
+test>>Node01>>Server01>>WARNING>>1659800423590
+BIP1361E<<Message flow node 'MQ Input', 'test#FCMComposite_1_1' in Message flow 'test', 'test' requires Policy 'Default' of type 'MQEndpoint' which is not deployed. <<1659800423590
+BIP1361E<<Message flow node 'MQ Output', 'test#FCMComposite_1_2' in Message flow 'test', 'test' requires Policy 'Default' of type 'MQEndpoint' which is not deployed. <<1659800423590
+BIP1096E<<The source 'testproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659800423590
+MQpolicyproject>>Node01>>Server01>>SUCCESS>>1659800643494
+BIP9332I<<PolicyProject 'MQpolicyproject' has been created successfully. <<1659800643494
+BIP9326I<<The source 'MQpolicyprojectproject.generated.bar' has been successfully deployed. <<1659800643494
+test>>Node01>>Server01>>WARNING>>1659800661914
+BIP9320E<<Message Flow 'test', 'test' encountered a failure and could not start. <<1659800661914
+BIP2214E<<Invalid configuration message with no value for attribute 'destinationQueueManagerName', object 'test.MQ Input'. <<1659800661914
+BIP9333W<<Application 'test' has been changed but contains errors which has prevented some resources from starting. <<1659800661914
+BIP1096E<<The source 'testproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659800661914
+test>>Node01>>Server01>>WARNING>>1659800860495
+BIP9320E<<Message Flow 'test', 'test' encountered a failure and could not start. <<1659800860495
+BIP2214E<<Invalid configuration message with no value for attribute 'destinationQueueManagerName', object 'test.MQ Input'. <<1659800860495
+BIP9333W<<Application 'test' has been changed but contains errors which has prevented some resources from starting. <<1659800860495
+BIP1096E<<The source 'testproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659800860495
+test>>Node01>>Server01>>WARNING>>1659801083063
+BIP9320E<<Message Flow 'test', 'test' encountered a failure and could not start. <<1659801083063
+BIP2214E<<Invalid configuration message with no value for attribute 'destinationQueueManagerName', object 'test.MQ Input'. <<1659801083063
+BIP9333W<<Application 'test' has been changed but contains errors which has prevented some resources from starting. <<1659801083063
+BIP1096E<<The source 'testproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659801083063
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659801244778
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659801244778
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659801244778
+MQTEST>>Node01>>Server01>>SUCCESS>>1659801677748
+BIP9332I<<PolicyProject 'MQTEST' has been created successfully. <<1659801677748
+BIP9326I<<The source 'MQTESTproject.generated.bar' has been successfully deployed. <<1659801677748
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659802041423
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659802041423
+BIP2684E<<A component was configured to use IBM MQ, but the required MQ libraries are not available. <<1659802041423
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659802041423
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659802041423
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659862695794
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659862695794
+BIP2684E<<A component was configured to use IBM MQ, but the required MQ libraries are not available. <<1659862695794
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659862695794
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659862695794
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659862970370
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659862970370
+BIP2211E<<Invalid configuration attribute value 'http://', is not valid for target attribute 'URLSpecifier', object 'SMS Gateway'; valid values are 'http://host[:port][/path]'. <<1659862970370
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659862970370
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659862970370
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659863377606
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659863377606
+BIP2211E<<Invalid configuration attribute value 'http://', is not valid for target attribute 'URLSpecifier', object 'SMS Gateway'; valid values are 'http://host[:port][/path]'. <<1659863377606
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659863377606
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659863377606
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659876846699
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659876846699
+BIP2211E<<Invalid configuration attribute value 'http://', is not valid for target attribute 'URLSpecifier', object 'SMS Gateway'; valid values are 'http://host[:port][/path]'. <<1659876846699
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659876846699
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659876846699
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659892058761
+BIP9320E<<Message Flow 'MQFlow', 'MQFlow' encountered a failure and could not start. <<1659892058761
+BIP2211E<<Invalid configuration attribute value 'http://', is not valid for target attribute 'URLSpecifier', object 'SMS Gateway'; valid values are 'http://host[:port][/path]'. <<1659892058761
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659892058761
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659892058761
+MQTEST>>Node01>>Server01>>SUCCESS>>1659950162105
+BIP9339W<<The values defined in the policy(s) 'MQTEST' in policy project 'MQTEST' match the values of the existing policy(s). Any deployed resources using the policy(s) will not be affected by the redeploy of the policy project. <<1659950162105
+BIP9332I<<Policy 'MQPolicy' has been changed successfully. <<1659950162105
+BIP9326I<<The source 'MQTESTproject.generated.bar' has been successfully deployed. <<1659950162105
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659961733282
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659961733282
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659961733282
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659961855655
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659961855655
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659961855655
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965037458
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965037458
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965037458
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965167166
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965167166
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965167166
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965258499
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965258499
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965258499
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965414143
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965414143
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965414143
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965601158
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965601158
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965601158
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659965971244
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659965971244
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659965971244
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966026783
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966026783
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966026783
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966080373
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966080373
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966080373
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966130433
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966130433
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966130433
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966212112
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966212112
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966212112
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966292199
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966292199
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966292199
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966617279
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966617279
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966617279
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966764161
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966764161
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966764161
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966808625
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966808625
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966808625
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659966972038
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659966972038
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659966972038
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967053148
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967053148
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967053148
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967133658
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967133658
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967133658
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967253345
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967253345
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967253345
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967344460
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967344460
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967344460
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967440568
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967440568
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967440568
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659967517252
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659967517252
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659967517252
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659985936008
+BIP9318E<<Request to 'PreSetupValidate' resource 'HTTPInputApplication', 'HTTPInputApplication' of type 'Application' failed. <<1659985936008
+BIP2432E<<(.SMSflow_validation_and_parsing.Main, 4.34) : The correlation name 'inputroot.XMLNSC.sms' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inpayload. <<1659985936008
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659985936008
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659985936008
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659985998884
+BIP9318E<<Request to 'PreSetupValidate' resource 'HTTPInputApplication', 'HTTPInputApplication' of type 'Application' failed. <<1659985998884
+BIP2432E<<(.SMSflow_validation_and_parsing.Main, 4.34) : The correlation name 'inputroot.XMLNSC.sms' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inpayload. <<1659985998884
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659985998884
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659985998884
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659986112448
+BIP9318E<<Request to 'PreSetupValidate' resource 'HTTPInputApplication', 'HTTPInputApplication' of type 'Application' failed. <<1659986112448
+BIP2432E<<(.SMSflow_validation_and_parsing.Main, 4.34) : The correlation name 'inputroot.XMLNSC.sms' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inpayload. <<1659986112448
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659986112448
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659986112448
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986191673
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986191673
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986191673
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659986272863
+BIP9318E<<Request to 'PreSetupValidate' resource 'HTTPInputApplication', 'HTTPInputApplication' of type 'Application' failed. <<1659986272863
+BIP2432E<<(.SMSflow_Compute.Main, 5.34) : The correlation name 'inputroot.XMLNSC.sms' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inpayload. <<1659986272863
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659986272863
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659986272863
+HTTPInputApplication>>Node01>>Server01>>WARNING>>1659986289370
+BIP9318E<<Request to 'PreSetupValidate' resource 'HTTPInputApplication', 'HTTPInputApplication' of type 'Application' failed. <<1659986289370
+BIP2432E<<(.SMSflow_Compute.Main, 5.34) : The correlation name 'inputroot.XMLNSC.sms' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inpayload. <<1659986289370
+BIP9333W<<Application 'HTTPInputApplication' has been changed but contains errors which has prevented some resources from starting. <<1659986289370
+BIP1096E<<The source 'HTTPInputApplicationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1659986289370
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986555076
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986555076
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986555076
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986646059
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986646059
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986646059
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986693127
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986693127
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986693127
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986724724
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986724724
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986724724
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986806908
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986806908
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986806908
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1659986897001
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1659986897001
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1659986897001
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660035969844
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660035969844
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660035969844
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660036155906
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660036155906
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660036155906
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660036217596
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660036217596
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660036217596
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660036309069
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660036309069
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660036309069
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660036638822
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660036638822
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660036638822
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660036774188
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660036774188
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660036774188
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660037019222
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660037019222
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660037019222
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660037077777
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660037077777
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660037077777
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660037208028
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660037208028
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660037208028
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660037376087
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660037376087
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660037376087
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660038428114
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660038428114
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660038428114
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660038965327
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660038965327
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660038965327
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660039206581
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660039206581
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660039206581
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660039544835
+BIP9332I<<Application 'HTTPInputApplication' has been created successfully. <<1660039544835
+BIP9326I<<The source 'HTTPInputApplicationproject.generated.bar' has been successfully deployed. <<1660039544835
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660039580969
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660039580969
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660039580969
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660041326844
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660041326844
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660041326844
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660041637256
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660041637256
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660041637256
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660041839676
+BIP9332I<<Application 'HTTPInputApplication' has been created successfully. <<1660041839676
+BIP9326I<<The source 'HTTPInputApplicationproject.generated.bar' has been successfully deployed. <<1660041839676
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660041847468
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660041847468
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660041847468
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660042098206
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660042098206
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660042098206
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660042414500
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660042414500
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660042414500
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660042805319
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1660042805319
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660042805319
+ESB>>Node01>>Server01>>SUCCESS>>1660044005486
+BIP9332I<<Application 'ESB' has been created successfully. <<1660044005486
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044005486
+ESB>>Node01>>Server01>>SUCCESS>>1660044013911
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044013911
+BIP9326I<<The source 'ESBproject.generated.bar' has been successfully deployed. <<1660044013911
+Mediation>>Node01>>Server01>>SUCCESS>>1660044027412
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660044027412
+BIP9326I<<The source 'Mediationproject.generated.bar' has been successfully deployed. <<1660044027412
+ESB>>Node01>>Server01>>SUCCESS>>1660044035343
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044035343
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044035343
+ESB>>Node01>>Server01>>SUCCESS>>1660044051665
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044051665
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044051665
+ESB>>Node01>>Server01>>SUCCESS>>1660044271777
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044271777
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044271777
+ESB>>Node01>>Server01>>SUCCESS>>1660044281919
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044281919
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044281919
+ESB>>Node01>>Server01>>SUCCESS>>1660044526936
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044526936
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044526936
+ESB>>Node01>>Server01>>SUCCESS>>1660044620044
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044620044
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044620044
+ESB>>Node01>>Server01>>SUCCESS>>1660044691330
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044691330
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044691330
+ESB>>Node01>>Server01>>SUCCESS>>1660044712330
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044712330
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044712330
+ESB>>Node01>>Server01>>SUCCESS>>1660044970375
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044970375
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044970375
+ESB>>Node01>>Server01>>SUCCESS>>1660044984900
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660044984900
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660044984900
+ESB>>Node01>>Server01>>SUCCESS>>1660047866674
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660047866674
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660047866674
+ESB>>Node01>>Server01>>SUCCESS>>1660047875081
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660047875081
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660047875081
+ESB>>Node01>>Server01>>SUCCESS>>1660048117345
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048117345
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048117345
+ESB>>Node01>>Server01>>SUCCESS>>1660048138916
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048138916
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048138916
+ESB>>Node01>>Server01>>SUCCESS>>1660048221911
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048221911
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048221911
+Mediation>>Node01>>Server01>>SUCCESS>>1660048341235
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660048341235
+BIP9326I<<The source 'Mediationproject.generated.bar' has been successfully deployed. <<1660048341235
+ESB>>Node01>>Server01>>SUCCESS>>1660048341443
+BIP9332I<<Application 'ESB' has been created successfully. <<1660048341443
+BIP9326I<<The source 'ESBproject.generated.bar' has been successfully deployed. <<1660048341443
+Mediation>>Node01>>Server01>>SUCCESS>>1660048737938
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660048737938
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660048737938
+ESB>>Node01>>Server01>>SUCCESS>>1660048756651
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048756651
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048756651
+Mediation>>Node01>>Server01>>SUCCESS>>1660048822395
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660048822395
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660048822395
+ESB>>Node01>>Server01>>SUCCESS>>1660048831835
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048831835
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048831835
+ESB>>Node01>>Server01>>SUCCESS>>1660048926072
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660048926072
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660048926072
+Mediation>>Node01>>Server01>>SUCCESS>>1660049020681
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660049020681
+BIP9326I<<The source 'Mediationproject.generated.bar' has been successfully deployed. <<1660049020681
+ESB>>Node01>>Server01>>SUCCESS>>1660049029371
+BIP9332I<<Application 'ESB' has been created successfully. <<1660049029371
+BIP9326I<<The source 'ESBproject.generated.bar' has been successfully deployed. <<1660049029371
+Mediation>>Node01>>Server01>>SUCCESS>>1660049037875
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660049037875
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660049037875
+ESB>>Node01>>Server01>>SUCCESS>>1660049048795
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660049048795
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660049048795
+Mediation>>Node01>>Server2>>SUCCESS>>1660049259464
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660049259464
+BIP9326I<<The source 'Mediationproject.generated.bar' has been successfully deployed. <<1660049259464
+ESB>>Node01>>Server2>>SUCCESS>>1660049270062
+BIP9332I<<Application 'ESB' has been created successfully. <<1660049270062
+BIP9326I<<The source 'ESBproject.generated.bar' has been successfully deployed. <<1660049270062
+Mediation>>Node01>>Server2>>SUCCESS>>1660049281823
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660049281823
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660049281823
+ESB>>Node01>>Server2>>SUCCESS>>1660049297001
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660049297001
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660049297001
+Mediation>>Node01>>Server01>>SUCCESS>>1660049491872
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660049491872
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660049491872
+ESB>>Node01>>Server01>>SUCCESS>>1660049498478
+BIP9332I<<Application 'ESB' has been created successfully. <<1660049498478
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660049498478
+Mediation>>Node01>>Server01>>SUCCESS>>1660049703052
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660049703052
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660049703052
+ESB>>Node01>>Server01>>SUCCESS>>1660049709430
+BIP9332I<<Application 'ESB' has been created successfully. <<1660049709430
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660049709430
+Mediation>>Node01>>Server01>>SUCCESS>>1660050260486
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660050260486
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660050260486
+ESB>>Node01>>Server01>>SUCCESS>>1660050272071
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660050272071
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660050272071
+HTTPInputApplication>>Node01>>Server01>>SUCCESS>>1660050579780
+BIP9332I<<Application 'HTTPInputApplication' has been created successfully. <<1660050579780
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1660050579780
+Mediation>>Node01>>Server01>>SUCCESS>>1660050604824
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660050604824
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660050604824
+ESB>>Node01>>Server01>>SUCCESS>>1660050635439
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660050635439
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660050635439
+Mediation>>Node01>>Server01>>SUCCESS>>1660051238006
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660051238006
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660051238006
+ESB>>Node01>>Server01>>SUCCESS>>1660051252136
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660051252136
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660051252136
+ESB>>Node01>>Server01>>SUCCESS>>1660051347747
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660051347747
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660051347747
+Mediation>>Node01>>Server01>>SUCCESS>>1660051358026
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660051358026
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660051358026
+Mediation>>Node01>>Server01>>SUCCESS>>1660051793609
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660051793609
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660051793609
+ESB>>Node01>>Server01>>SUCCESS>>1660051805396
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660051805396
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660051805396
+Mediation>>Node01>>Server01>>SUCCESS>>1660052016082
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660052016082
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660052016082
+ESB>>Node01>>Server01>>SUCCESS>>1660052021550
+BIP9332I<<Application 'ESB' has been created successfully. <<1660052021550
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660052021550
+Mediation>>Node01>>Server01>>WARNING>>1660053078377
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053078377
+BIP2523E<<(.SendSMS_validation.Main, 23.4) : Cannot assign to a symbolic constant or input message. <<1660053078377
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053078377
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053078377
+Mediation>>Node01>>Server01>>WARNING>>1660053115275
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053115275
+BIP2523E<<(.SendSMS_validation.Main, 23.4) : Cannot assign to a symbolic constant or input message. <<1660053115275
+BIP9333W<<Application 'Mediation' has been created but contains errors which has prevented some resources from starting. <<1660053115275
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053115275
+Mediation>>Node01>>Server01>>WARNING>>1660053162611
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053162611
+BIP2523E<<(.SendSMS_validation.Main, 23.4) : Cannot assign to a symbolic constant or input message. <<1660053162611
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053162611
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053162611
+Mediation>>Node01>>Server01>>WARNING>>1660053240502
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053240502
+BIP2523E<<(.SendSMS_validation.Main, 6.3) : Cannot assign to a symbolic constant or input message. <<1660053240502
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053240502
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053240502
+Mediation>>Node01>>Server01>>WARNING>>1660053309859
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053309859
+BIP2432E<<(.SendSMS_validation.Main, 7.51) : The correlation name 'XMLNSC.Attr' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inPayLoad, phonelength, userName, userPass, Smsid. <<1660053309859
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053309859
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053309859
+Mediation>>Node01>>Server01>>WARNING>>1660053382557
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053382557
+BIP2432E<<(.SendSMS_validation.Main, 7.51) : The correlation name 'XMLNSC.Attr' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inPayLoad, phonelength, userName, userPass, Smsid. <<1660053382557
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053382557
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053382557
+Mediation>>Node01>>Server01>>WARNING>>1660053419773
+BIP9318E<<Request to 'PreSetupValidate' resource 'Mediation', 'Mediation' of type 'Application' failed. <<1660053419773
+BIP2432E<<(.SendSMS_validation.Main, 7.48) : The correlation name 'XMLNSC.Attr' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inPayLoad, phonelength, userName, userPass, Smsid. <<1660053419773
+BIP9333W<<Application 'Mediation' has been changed but contains errors which has prevented some resources from starting. <<1660053419773
+BIP1096E<<The source 'Mediationproject.TestMode.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1660053419773
+Mediation>>Node01>>Server01>>SUCCESS>>1660053515201
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660053515201
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660053515201
+Mediation>>Node01>>Server01>>SUCCESS>>1660053593209
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660053593209
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660053593209
+Mediation>>Node01>>Server01>>SUCCESS>>1660053671423
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660053671423
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660053671423
+Mediation>>Node01>>Server01>>SUCCESS>>1660119281803
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660119281803
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660119281803
+ESB>>Node01>>Server01>>SUCCESS>>1660119288586
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660119288586
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660119288586
+Mediation>>Node01>>Server01>>SUCCESS>>1660119379066
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660119379066
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660119379066
+ESB>>Node01>>Server01>>SUCCESS>>1660119385351
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660119385351
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660119385351
+Mediation>>Node01>>Server01>>SUCCESS>>1660119435944
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660119435944
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660119435944
+Mediation>>Node01>>Server01>>SUCCESS>>1660119514210
+BIP9332I<<Application 'Mediation' has been changed successfully. <<1660119514210
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660119514210
+ESB>>Node01>>Server01>>SUCCESS>>1660119521093
+BIP9332I<<Application 'ESB' has been changed successfully. <<1660119521093
+BIP9326I<<The source 'ESBproject.TestMode.bar' has been successfully deployed. <<1660119521093
+Mediation>>Node01>>Server01>>SUCCESS>>1660119615959
+BIP9332I<<Application 'Mediation' has been created successfully. <<1660119615959
+BIP9326I<<The source 'Mediationproject.TestMode.bar' has been successfully deployed. <<1660119615959

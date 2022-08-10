@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:services xmlns:ns2="http://com.ibm.etools.mft.service">
+    <ns2:service name="MQService3">
+        <ns2:metadata>
+            <discovery>
+                <discoveryConnection>
+                    <mqConnectionDetails>
+                        <queueManagerName>Zwedy</queueManagerName>
+                    </mqConnectionDetails>
+                </discoveryConnection>
+                <runtimeConnection>
+                    <InputMessageHeaderProperties>
+                        <inMessageType>MQMT_REQUEST</inMessageType>
+                    </InputMessageHeaderProperties>
+                </runtimeConnection>
+                <filterProperties>
+                    <messageFormatProperties>
+                        <messageExchangePattern>Request-Response</messageExchangePattern>
+                        <includeSystemObjects>false</includeSystemObjects>
+                    </messageFormatProperties>
+                </filterProperties>
+                <selectedObjects/>
+                <selection>
+                    <selectionProperties/>
+                </selection>
+                <outputProperties/>
+            </discovery>
+        </ns2:metadata>
+        <ns2:connectors>
+            <ns2:connector binding="com/ibm/mft/connector/mq:MQConnector" version="1.0.0"/>
+        </ns2:connectors>
+    </ns2:service>
+</ns2:services>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1659629706312_1" label="[HTTPInputApplication]" name="[HTTPInputApplication]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HTTPInputApplication" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1659802111491_4" label="[MQTESTER]" name="[MQTESTER]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MQTESTER" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660043727752_4" label="[Mediation]" name="[Mediation]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Mediation" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660043755155_5" label="[ESB]" name="[ESB]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ESB" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1659629650562_0" label="Window Working Set" name="Aggregate for window 1659629650562"/>
+</workingSetManager>

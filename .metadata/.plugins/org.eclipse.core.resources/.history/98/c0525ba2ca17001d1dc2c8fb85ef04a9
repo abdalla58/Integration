@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:services xmlns:ns2="http://com.ibm.etools.mft.service">
+    <ns2:service name="MQService">
+        <ns2:metadata>
+            <discovery>
+                <discoveryConnection>
+                    <mqConnectionDetails>
+                        <mqConnectionType>LOCAL</mqConnectionType>
+                        <queueManagerName>Zwedy</queueManagerName>
+                        <queueManagerHost>localhost</queueManagerHost>
+                        <listenerPort>1414</listenerPort>
+                        <channelName>SYSTEM.BKR.CONFIG</channelName>
+                    </mqConnectionDetails>
+                </discoveryConnection>
+                <runtimeConnection/>
+                <filterProperties/>
+                <selectedObjects/>
+                <selection>
+                    <selectionProperties/>
+                </selection>
+                <outputProperties/>
+            </discovery>
+        </ns2:metadata>
+        <ns2:connectors>
+            <ns2:connector binding="com/ibm/mft/connector/mq:MQConnector" version="1.0.0"/>
+        </ns2:connectors>
+    </ns2:service>
+</ns2:services>

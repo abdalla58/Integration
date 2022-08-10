@@ -1,0 +1,64 @@
+CREATE COMPUTE MODULE SMS_Validation
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		DECLARE inPayLoad REFERENCE TO InputRoot.XMLNSC.sms;
+		DECLARE phonelength BOOLEAN FALSE;
+		DECLARE userName, userPass CHARACTER '';
+		
+		SET userPass = '123456';
+		IF LENGTH(inPayLoad.rec) = 11 THEN
+			SET phonelength = TRUE;
+		END IF;
+		
+		if phonelength then 
+		CASE
+		WHEN STARTSWITH(inPayLoad.rec, '010') THEN
+			SET userName = '1';
+			CALL CopyEntireMessage();
+			SET OutputRoot.XMLNSC.sms.user = userName;
+			SET OutputRoot.XMLNSC.sms.pass = userPass;
+		WHEN STARTSWITH(inPayLoad.rec, '012')THEN
+			SET userName = '2';
+			CALL CopyEntireMessage();
+			SET OutputRoot.XMLNSC.sms.user = userName;
+			SET OutputRoot.XMLNSC.sms.pass = userPass;
+		WHEN STARTSWITH(inPayLoad.rec, '011') THEN
+			SET userName = '3';
+			CALL CopyEntireMessage();
+			SET OutputRoot.XMLNSC.sms.user = userName;
+			SET OutputRoot.XMLNSC.sms.pass = userPass;
+		WHEN STARTSWITH(inPayLoad.rec, '014') THEN
+			SET userName = '4';
+			CALL CopyEntireMessage();
+			SET OutputRoot.XMLNSC.sms.user = userName;
+			SET OutputRoot.XMLNSC.sms.pass = userPass;
+
+		ELSE
+			PROPAGATE TO TERMINAL 'out1';    -- 'out1'
+			RETURN FALSE;
+		END CASE;
+		ELSE
+			PROPAGATE TO TERMINAL 'out1';    -- 'out1'
+			RETURN FALSE;
+		end if;
+		-- CALL CopyMessageHeaders();
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.[I] = InputRoot.[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

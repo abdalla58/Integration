@@ -1,0 +1,28 @@
+CREATE COMPUTE MODULE ESBMSG_ESBparsing
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputLocalEnvironment.Destination.HTTP.QueryString.user = InputRoot.XMLNSC.sms.user;
+		SET OutputLocalEnvironment.Destination.HTTP.QueryString.pass = InputRoot.XMLNSC.sms.pass;
+		SET OutputLocalEnvironment.Destination.HTTP.QueryString.number = InputRoot.XMLNSC.sms.rec;
+		SET OutputLocalEnvironment.Destination.HTTP.QueryString.text = InputRoot.XMLNSC.sms.msg;
+		
+		SET Environment.inmsg = InputRoot.XMLNSC;
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

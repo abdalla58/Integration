@@ -1,0 +1,34 @@
+
+
+CREATE COMPUTE MODULE MQFlow_Compute1 
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		--declare refrec char inputROOT.xmlnsc.sms.rec;
+		--declare refrec Refrenece to inputROOT.xmlnsc.sms.rec;
+		--refrec.(XMLNSC.ATT)id;
+		DECLARE refinpayload REFERENCE  to InputRoot.XMLNSC.sms;
+		DECLARE Count INT CARDINALITY(refinpayload.rec);
+		IF LENGTH(refinpayload.rec) = 11 THEN
+			SET	OutputRoot.XMLNSC.rec = refinpayload.rec;
+			PROPAGATE to terminal 'Out1'; 	
+		ELSE 		
+			PROPAGATE to terminal 0;
+		RETURN False;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
